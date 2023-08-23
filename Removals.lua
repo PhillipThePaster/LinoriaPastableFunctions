@@ -1,3 +1,4 @@
+local replicatedStorage = game:GetService("ReplicatedStorage")
 YOURTABHERE:AddToggle('Bloom', {Text = 'Bloom',Default = true,Callback = function(state) if state then game:GetService"Lighting".Bloom.Enabled = true else game:GetService"Lighting".Bloom.Enabled = false end end}) Toggles.Bloom:OnChanged(function()end)
 YOURTABHERE:AddToggle('SunRays', { Text = 'SunRays', Default = true, Callback = function(state) if state then game:GetService"Lighting".SunRays.Enabled = true else game:GetService"Lighting".SunRays.Enabled = false end end}) Toggles.SunRays:OnChanged(function() end)
 YOURTABHERE:AddToggle('Shadows', {Text = 'Shadows',Default = true,Callback = function(state)if state then LightingService.GlobalShadows = true else LightingService.GlobalShadows = false end end})
