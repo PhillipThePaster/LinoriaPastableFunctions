@@ -17,3 +17,5 @@
                 game.Players.LocalPlayer.Character.Head:Destroy()
              end
       end)
+--goofy asf
+YOURTABHERE:AddButton('Nill-Char', function() game.Players.LocalPlayer.Character.LowerTorso.Root:Destroy() end)
